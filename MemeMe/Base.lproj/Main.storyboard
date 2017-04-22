@@ -26,13 +26,19 @@
                                 <items>
                                     <barButtonItem title="Pick" id="70O-Ha-ler">
                                         <connections>
-                                            <action selector="pickImage:" destination="BYZ-38-t0r" id="keU-Fy-Ouk"/>
+                                            <action selector="pickImageFromAlbum:" destination="BYZ-38-t0r" id="gkx-TA-5eO"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Bfg-Xd-wPK"/>
+                                    <barButtonItem systemItem="camera" id="2kf-Og-duz">
+                                        <connections>
+                                            <action selector="pickImageFromCamera:" destination="BYZ-38-t0r" id="caq-xp-fdC"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
                             </toolbar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UIf-aA-iI6">
-                                <rect key="frame" x="46" y="220" width="282" height="226"/>
+                                <rect key="frame" x="0.0" y="166" width="375" height="283"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -44,6 +50,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="cameraButton" destination="2kf-Og-duz" id="vTq-4p-d3P"/>
                         <outlet property="imageView" destination="UIf-aA-iI6" id="8JK-QU-rTU"/>
                     </connections>
                 </viewController>
