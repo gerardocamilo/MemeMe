@@ -26,6 +26,8 @@
 	<string>Main</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Required for selecting Meme image.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Required for capturing photo to be used in Meme creation</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
