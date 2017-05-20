@@ -12,6 +12,7 @@
 		82126C821EABC7180079D15C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82126C801EABC7180079D15C /* Main.storyboard */; };
 		82126C841EABC7180079D15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82126C831EABC7180079D15C /* Assets.xcassets */; };
 		82126C871EABC7180079D15C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82126C851EABC7180079D15C /* LaunchScreen.storyboard */; };
+		823CF6401ED0670E0030095E /* BottomTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823CF63F1ED0670E0030095E /* BottomTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		82126C831EABC7180079D15C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82126C861EABC7180079D15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82126C881EABC7180079D15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823CF63F1ED0670E0030095E /* BottomTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				82126C831EABC7180079D15C /* Assets.xcassets */,
 				82126C851EABC7180079D15C /* LaunchScreen.storyboard */,
 				82126C881EABC7180079D15C /* Info.plist */,
+				823CF63F1ED0670E0030095E /* BottomTextFieldDelegate.swift */,
 			);
 			path = MemeMe;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823CF6401ED0670E0030095E /* BottomTextFieldDelegate.swift in Sources */,
 				82126C7F1EABC7180079D15C /* ViewController.swift in Sources */,
 				82126C7D1EABC7180079D15C /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +304,7 @@
 				82126C8D1EABC7180079D15C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
